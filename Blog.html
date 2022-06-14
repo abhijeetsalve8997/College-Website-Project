@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord University</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300&family=Poppins:wght@100;200;300;400;600;700&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <!-------------------------------------HEADER----------------------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"><img src="./eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+
+    <!--------------------BLOG PAGE CONTENT------------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Program for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi sunt itaque, molestiae mollitia doloribus asperiores ipsa repellat laborum repellendus voluptate enim ea ab molestias, quasi atque? Tenetur odit optio fugit maxime magni exercitationem sequi laborum ipsa, incidunt sint reprehenderit ex similique ratione dolor mollitia.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem repellendus quod voluptate asperiores labore rem, ipsa enim cupiditate? Ipsum fugit nostrum nihil earum, voluptates doloribus? Eligendi, cumque. Doloremque optio voluptas a aliquid enim atque, ratione magnam quos earum? Autem amet voluptatibus numquam et assumenda architecto. Ipsum sequi, accusamus reprehenderit distinctio repudiandae culpa quibusdam quas praesentium libero labore rerum eveniet rem.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam unde id iure delectus, corrupti quod? Ducimus nulla in, temporibus rerum, quos quaerat labore quae assumenda accusamus, molestiae cupiditate officia. Enim?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam, delectus velit ad consequatur distinctio officia quaerat aliquid rerum molestias atque totam quibusdam tempora pariatur aperiam. Ad provident earum non iusto nostrum distinctio praesentium obcaecati ea qui dolorem, amet illum omnis nisi nesciunt magni aut asperiores, blanditiis necessitatibus? Nihil, rerum.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bussiness Analyst</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <!--------------------FOOTER----------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Beatae, enim ea vel praesentium ex odio.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+    <!--------------JAVASCRIPT FOR TOGGLE MENU------------->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+</html>
